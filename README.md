@@ -64,12 +64,12 @@ algorithms.
 **Abstract** : Neural Networks have proven to be immensely powerful and achieved state-of-the-art performance on
 wide range of domains like natural language processing [21], computer vision [15] , weather forecasting [2]
 and medical diagnosis [19]. Despite achieving impressive scores on benchmark tasks ,NN's are prone to
-produce overcondent predictions [8],[6]. These overcondent predictions are a result of poor assessment
-and quantication of predictive uncertainty especially when dealing with data scarcity.
+produce overconfident predictions [8],[6]. These overconfident predictions are a result of poor assessment
+and quantification of predictive uncertainty especially when dealing with data scarcity.
 The uncertainty in predictions can arise due to the lack of knowledge (or understanding) of the model
 a.k.a distributional uncertainty [13] or epistemic uncertainty [3]. Aleatoric uncertainty on the other hand
-is irreducible and is representative of the unknowns that dier on each run of the experiment. Majority
-of the real world problems also suer from the problem of dataset shift [17] ,a mismatch between the
+is irreducible and is representative of the unknowns that differ on each run of the experiment. Majority
+of the real world problems also suffer from the problem of dataset shift [17] ,a mismatch between the
 distributions of your training and test dataset.With the increased application of NN's in safety critical
 tasks like perception systems for autonomous vehicles [16], medical diagnosis [19] etc. estimating and
 evaluating the quality of predictive uncertainty of the model has become a crucial task.
